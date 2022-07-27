@@ -1,0 +1,447 @@
+* {
+    font-family: 'Hubballi';
+}
+
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #987554;
+    border-bottom: 6px solid #987554;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 75px;
+
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 500;
+}
+
+.navbar .sticky-top {
+    top: -200px;
+    transition: .5s;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+.a {
+    background-image: url('../img/main.png');
+
+    height: max-content;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+
+
+.mainheading {
+    border-bottom: 10px solid #987554;
+
+}
+
+.services {
+    background-color: white;
+    margin: 20px;
+    height: 500px;
+    border-radius: 7px;
+    padding: 20px;
+    transition: 0.6s;
+}
+
+.services img {
+    border-radius: 7px;
+}
+
+
+.b :hover {
+    background-color: #c09161;
+    color: white;
+
+}
+
+.servicesbtn button {
+    background-color: #987554;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.servicesbtn button:hover {
+    background-color: #664229;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.c {
+    background: linear-gradient(to top,
+            rgb(248, 246, 246) 40%, #987554 25%, #987554 50%, rgb(248, 246, 246) 40%);
+}
+
+.aboutheading h1 {
+    font-family: 'Splash', cursive;
+    color: #987554;
+}
+
+.aboutheading h2 {
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+.aboutheading .turn {
+
+
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 white,
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+
+}
+
+
+.aboutheading h2 .comma {
+    font-family: 'Dancing Script', cursive;
+    color: #987554;
+
+
+}
+
+p {
+    font-size: large;
+}
+
+blockquote {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    color: #987554;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    color: #987554;
+    float: right;
+    font-size: 6em;
+    line-height: 1;
+    right: 0;
+    bottom: -0.5em;
+    content: "\201D";
+}
+
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align: right;
+}
+
+blockquote cite:before {
+    content: "\2013";
+}
+
+.qoute {
+    font-size: xx-large;
+}
+
+.quality {
+    background-color: #987554;
+    margin: 20px;
+    transition: transform .2s;
+    border-radius: 11px;
+    padding: 30px;
+    transition: 0.6s;
+}
+
+.quality i {
+    font-size: 100px;
+    color: white;
+
+}
+
+.quality h1 {
+    color: white;
+}
+
+.quality:hover {
+
+    -ms-transform: scale(0.5);
+    /* IE 9 */
+    -webkit-transform: scale(0.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+
+}
+
+.form {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.form .form-control {
+    font-size: x-large;
+}
+
+.form .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #987554;
+}
+
+.form label {
+    color: #987554;
+}
+
+.contactinformation {
+
+    margin: 50px;
+}
+
+.contactinformation p {
+    font-size: x-large;
+}
+
+.contactinformation p i {
+    color: #987554;
+}
+
+.d {
+    background-color: #f4f4f4;
+
+}
+
+.contactinformation a i {
+    font-size: x-large;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 100px;
+    color: #987554;
+    transition: transform 1s;
+}
+
+.contactinformation a i:hover {
+    background-color: #987554;
+    color: white;
+    transform: scale(1.3);
+}
+
+
+footer a {
+    text-decoration: none;
+}
+
+
+
+.team {
+
+    background-color: #efefef;
+    border-radius: 11px 11px 0px 0px;
+    border-top: 4px solid #987554;
+    padding: 20px;
+    transition: 0.6s;
+    height: 660px;
+}
+
+.team2 {
+
+    background-color: #efefef;
+    border-radius: 0px 0px 11px 11px;
+    border-bottom: 4px solid #987554;
+    padding: 20px;
+    transition: 0.6s;
+    height: 660px;
+}
+
+.team img {
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.team2 img {
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.director {
+
+    background-color: #efefef;
+    border-radius: 11px 11px 0px 0px;
+    border-top: 4px solid #987554;
+    padding: 20px;
+    transition: 0.6s;
+
+}
+
+.director2 {
+
+    background-color: #efefef;
+    border-radius: 0px 0px 11px 11px;
+    border-bottom: 4px solid #987554;
+    padding: 20px;
+    transition: 0.6s;
+}
+
+.director img {
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.director2 img {
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.vision {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Hubballi';
+    text-align: center;
+
+}
+.g{
+    width: 100%;
+    position: relative;
+}
+.bg-process {
+    margin-top: 20px;
+    border-radius: 100px 0px 0px 100px;
+    
+    height: 80px;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to left, #efefef 30px, #987554 45%, #664229 70%) ;
+    
+   
+
+}
+.g img{
+    border: 3px solid #664229;
+}
+.g h3{
+    font-family:  'Comfortaa', cursive;
+    color: white;
+    font-weight: 800;
+    
+
+}
+.new{
+    background-color: white;
+     border-radius: 100%; 
+}
+
+
+.containers {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
